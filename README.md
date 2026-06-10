@@ -28,6 +28,11 @@ Uses parallel arrays to store:
 - Quantities
 - Comments
 
+##Screenshot
+<img width="1920" height="1080" alt="Screenshot 2026-06-10 142549" src="https://github.com/user-attachments/assets/80f4bb85-992e-4eaa-8695-68507b3e2129" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-10 142536" src="https://github.com/user-attachments/assets/83b86071-4201-47e6-997c-5c6ce27e266f" />
+<img width="1920" height="1080" alt="Screenshot 2026-06-10 142517" src="https://github.com/user-attachments/assets/b3e47eba-b1c8-43af-bcc5-84046fe8e361" />
+
 ## How the Loop Works
 A for loop goes through the quantities array and adds them up to show Total Items Packed.
 
