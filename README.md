@@ -39,4 +39,40 @@ A for loop goes through the quantities array and adds them up to show Total Item
 ## Error Handling
 - Empty item name shows error message
 - Empty quantity shows error message
-- Invalid quantity shows error message 
+- Invalid quantity shows error message
+
+## Write-Up: Proof of Functionality
+
+### SplashActivity
+- App opens and displays the Campsite Commander
+  logo and title for 3 seconds
+- Automatically navigates to MainActivity after
+  3000ms using a Handler
+
+### MainActivity
+- Displays total items packed calculated using
+  a FOR loop through the itemQuantities array
+- Pre-loaded with 3 sample items (Tent,
+  Marshmallows, Flashlight) with total of 6
+- Add Gear button opens a dialog with input fields
+- Error handling shows Toast messages when:
+  - Item name is empty
+  - Quantity is empty
+  - Quantity is not a valid number
+
+### DetailActivity
+- Displays full gear list using a FOR loop
+  through all parallel arrays
+- Shows Item name, Category, Quantity and Comments
+- Back to Base button returns to MainActivity
+
+### Data Storage
+- Uses 4 parallel arrays to store item data
+- itemNames, itemCategories, itemQuantities
+  and itemComments all linked by index
+
+### Build Status
+- Project builds successfully in Android Studio
+- BUILD SUCCESSFUL in 2m 28s confirmed 
+
+
