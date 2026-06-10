@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/forest_dark"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📦 Gear Checklist"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/leaf_green"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/lvGearList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/earth_brown"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnBackToBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏠 Back to Base"
+        android:textSize="16sp"
+        android:backgroundTint="@color/earth_brown"
+        android:textColor="@color/sand_light"
+        android:layout_marginTop="12dp"
+        android:padding="14dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CampsiteCommander" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/leaf_green</item>
+        <item name="colorPrimaryVariant">@color/earth_brown</item>
+        <item name="colorOnPrimary">@color/forest_dark</item>
+        <item name="colorSecondary">@color/earth_brown</item>
+        <item name="colorOnSecondary">@color/sand_light</item>
+        <item name="android:statusBarColor">@color/forest_dark</item>
+        <item name="android:windowBackground">@color/forest_dark</item>
+    </style>
+</resources>
